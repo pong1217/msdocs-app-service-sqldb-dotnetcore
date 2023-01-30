@@ -36,7 +36,7 @@ namespace DotNetCoreSqlDb.Migrations
                         .HasColumnType("datetime");
 
                     b.Property<string>("Description")
-                        .HasColumnType("varchar(max)");
+                        .HasColumnType("varchar(65535)");
 
                     b.HasKey("ID");
 
