@@ -15,7 +15,7 @@ namespace DotNetCoreSqlDb.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Description = table.Column<string>(type: "varchar(65535)", nullable: true),
+                    Description = table.Column<string>(type: "varchar(21854)", nullable: true),
                     CreatedDate = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
