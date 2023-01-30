@@ -36,7 +36,7 @@ namespace DotNetCoreSqlDb.Migrations
                         .HasColumnType("datetime");
 
                     b.Property<string>("Description")
-                        .HasColumnType("varchar(21845)");
+                        .HasColumnType("varchar(8000)");
 
                     b.HasKey("ID");
 
